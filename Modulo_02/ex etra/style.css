@@ -1,7 +1,9 @@
-@charset "UTF-8"
-* {
+
+
+*{
     height: 100%;
-    width: 800px;
+    min-height: 400px;
+  max-width: 100%;
     background-color: rgb(46, 5, 85);
 }
 body {
