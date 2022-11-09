@@ -1,4 +1,4 @@
 # MODULOS
  Curso de HTML e CSS
 
-Estou sprendendo CSS e HTML
+Estou aprendendo CSS e HTML
