@@ -1,0 +1,25 @@
+@charset "UTF-8"
+<style>
+body{
+    background-color: lightgoldenrodyellow;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif
+    font-size: 20px;
+
+}
+h1{
+    text-decoration:underline ;
+    color: maroon;
+    background-color: goldenrod;
+}
+h2{
+    color: darkred;
+}
+p{
+    text-align: justify;
+   
+}
+a{
+    color: rgb(7, 7, 7);
+}
+
+</style>

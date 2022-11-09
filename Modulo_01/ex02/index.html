@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="icones/favicon.ico" type="image/x-icon">
+    <title>Meu 2° projeto</title>
+</head>
+<body>
+    <h1>imagens para todo tipo de navegador</h1>
+    <p>redimensione o navegador para ver as mudancas </p>
+    <picture>
+        <source media="(max-width: 750px)" srcset="imagens/paisagem-p.png" type="image/png">
+        <source media="(max-width: 1050px)" srcset="imagens/paisagem-m.png" type="image/png">
+        <img src="imagens/paisagem-g.png" alt="imagem grande">
+    </picture>
+    <h1>reproduzindo audios</h1>
+    <p>vamos reproduzir audio atravezz da tag audio </p>
+
+    <audio preload="metadata" autoplay controls loop >
+        <source src="midia/musica.mp3" type="audio/mpeg">
+        <source src="midia/musica.ogg" type="audio/ogg">
+        <source src="midia/musica.wav" type="audio/wav">
+        <P>
+            infelizmente seu navegador nao consegue reproduzir audio <a href="midia/musica.mp3">clique aqui para baixar o mp3</a>
+        </P>
+    </audio>
+    <h1>inserindo videos do youtube</h1>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/UscQQW9ZymQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+    <h1>inserindo videos do vimeo</h1>
+    <iframe src="https://player.vimeo.com/video/7636697?h=ad4069f09e&color=ff0179" width="640" height="480" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe>
+
+</body>
+</html>
