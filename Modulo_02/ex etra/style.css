@@ -5,6 +5,7 @@
     padding-top: 20px;
 }
 body {
+   
     background-image: linear-gradient(to right, rgb(17, 17, 199),orange );
 }
 main{
@@ -15,14 +16,12 @@ main{
     min-width:350px;
     max-width: 850px;
     padding: 10px;
-    display: block;
+    display:block;
     margin: auto;
 }
 h1{
     margin: 5px;
-    padding: 3px;
-    padding-left: 0px ;
-    padding-right: 0px;
+    padding: 3px ;
     text-decoration: underline;
     color: #F39209;
     text-align: center;
@@ -31,12 +30,13 @@ h1{
 }
 
 h1:hover{
+  
     background-color: #125189;
     padding: 3px;
-    border-radius: 6px;
-color: white;
-text-decoration: underline;
-transition: 1s;
+    border-radius: 0px 100px 0px 100px;
+    color: white;
+    text-decoration: underline;
+    transition: 2s;
 
 }
 
@@ -45,5 +45,6 @@ h2{
     color: #125189;
 }
 p{
-    text-align: center;
+    text-align: justify;
+    text-indent: 20px;
 }
