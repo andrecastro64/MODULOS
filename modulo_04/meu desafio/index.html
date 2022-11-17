@@ -8,10 +8,14 @@
    
     <style>
          
-    @media only screen and (max-device-width: 500px){
+    @media only screen and (max-device-width: 800px){
         
             
         }
+        @media only screen and (min-device-width: 500px){
+        
+            
+    }
        
 
        
@@ -31,13 +35,10 @@
 
         }
         div{
-           max-width: 450px;
-           
-           
-          
+           max-width: 800px;
+           min-width: 450px;
             margin: auto;
-            height: 1000px;
-            width: 600px;
+            height: 750px;
             background-color: rgb(117, 228, 228);
         }
         h1, h2{
@@ -73,7 +74,7 @@
         }
         iframe{
             display: block;
-            margin: auto;
+           margin: auto;
             margin-top: 50px;
            
             border: 5px solid rgb(255, 255, 255);
@@ -81,6 +82,12 @@
             max-width: 650px;
             min-width: 430px;
             height: 175px;
+        }
+        img{
+         
+            display: block;
+            margin: auto;
+            padding-top: 20px;
         }
     </style>
 </head>
@@ -99,7 +106,12 @@
         <iframe name="frame"  src="">
             <p>infelizmente seu navegador não é compativel com isso.</p>
         </iframe>
+        <p><img src="imagem/feliz.png" alt="Seu navegador nao suportou a imagem"></p>
+        
     </div>
+
+    
+
 
     
    
